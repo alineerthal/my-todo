@@ -193,9 +193,6 @@ export default function App() {
 
     if (!over || active.id === over.id) return;
 
-    const oldIndex = filteredTasks.findIndex((t) => t.id === active.id);
-    const newIndex = filteredTasks.findIndex((t) => t.id === over.id);
-
     // Reordenar apenas a lista total (não apenas a filtrada)
     const tasksCloned = [...tasks];
     const activeGlobalIndex = tasksCloned.findIndex((t) => t.id === active.id);
