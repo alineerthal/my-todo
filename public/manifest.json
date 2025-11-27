@@ -1,7 +1,9 @@
 {
-  "name": "My To-Do",
+  "name": "Minha To-Do List",
   "short_name": "To-Do",
+  "description": "Uma to-do list moderna, rápida e responsiva.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#7B2FF7",
@@ -19,6 +21,11 @@
     {
       "src": "/logo-512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-1024.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ]
